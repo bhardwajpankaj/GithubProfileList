@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="RightMessageTableViewCell" rowHeight="83" id="KGk-i7-Jjw" customClass="RightMessageTableViewCell" customModule="Ecommerce" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="83"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="82.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2oG-OW-ljk">
+                        <rect key="frame" x="231" y="6" width="82" height="70.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IYT-0k-22y">
+                        <rect key="frame" x="248" y="18" width="42" height="46.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="2oG-OW-ljk" firstAttribute="width" secondItem="IYT-0k-22y" secondAttribute="width" constant="40" id="26w-nW-PEr"/>
+                    <constraint firstItem="2oG-OW-ljk" firstAttribute="centerY" secondItem="IYT-0k-22y" secondAttribute="centerY" id="AO4-Fr-y89"/>
+                    <constraint firstItem="IYT-0k-22y" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="60" id="BXD-oe-bEU"/>
+                    <constraint firstItem="IYT-0k-22y" firstAttribute="leading" secondItem="2oG-OW-ljk" secondAttribute="leading" constant="17" id="GaQ-0a-OTH"/>
+                    <constraint firstItem="IYT-0k-22y" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="18" id="IUE-cq-t70"/>
+                    <constraint firstItem="2oG-OW-ljk" firstAttribute="height" secondItem="IYT-0k-22y" secondAttribute="height" constant="24" id="Qe4-zh-7kE"/>
+                    <constraint firstAttribute="trailing" secondItem="IYT-0k-22y" secondAttribute="trailing" constant="30" id="h0B-cK-0yy"/>
+                    <constraint firstAttribute="bottom" secondItem="IYT-0k-22y" secondAttribute="bottom" constant="18" id="vOk-PK-faD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bubbleImageView" destination="2oG-OW-ljk" id="Net-FZ-Aih"/>
+                <outlet property="messageLbl" destination="IYT-0k-22y" id="eQf-5f-D4x"/>
+            </connections>
+            <point key="canvasLocation" x="-83" y="-68.5"/>
+        </tableViewCell>
+    </objects>
+</document>
