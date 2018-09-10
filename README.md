@@ -18,11 +18,6 @@ a simple GitHub Direct Messaging app.
   ![simulator screen shot - iphone 5s - 2018-08-22 at 16 54 07](https://user-images.githubusercontent.com/5277297/44657068-2bc47600-aa19-11e8-9b01-5b2b6117706f.png)
 
 
-* Tapping any of these User will navigate to the a direct messaging (DM) screen.
-  // 2nd Screen image
-  ![simulator screen shot - iphone 5s - 2018-08-27 at 18 12 32](https://user-images.githubusercontent.com/5277297/44660301-d2fada80-aa24-11e8-994d-afaa1af39e10.png)
-
-
 * when user types something then after 1 second System returns the same 2 times repetitive message
 
 # Additional Optional Specifications
